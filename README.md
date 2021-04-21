@@ -1,6 +1,7 @@
 # number-formatierer
-![GitHub file size in bytes](https://img.shields.io/github/size/kurisu994/number-formatter/lib/index.js)
-[![npm version](https://badge.fury.io/js/number-formatierer.svg)](http://badge.fury.io/js/number-formatierer)
+![GitHub repo size](https://img.shields.io/github/repo-size/kurisu994/number-formatter)
+![Travis (.org) branch](https://img.shields.io/travis/kurisu994/number-formatter/main)
+![npm (tag)](https://img.shields.io/npm/v/number-formatierer/latest)
 ![GitHub](https://img.shields.io/github/license/kurisu994/number-formatter)
 ## Install
 
