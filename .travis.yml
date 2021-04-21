@@ -6,3 +6,6 @@ node_js:
   - '12'
   - '14'
   - '15'
+
+install: true 
+script: npm test
