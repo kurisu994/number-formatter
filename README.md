@@ -1,20 +1,21 @@
-# number-formatter
-
-
+# number-formatierer
+![GitHub file size in bytes](https://img.shields.io/github/size/kurisu994/number-formatter/lib/index.js)
+[![npm version](https://badge.fury.io/js/number-formatierer.svg)](http://badge.fury.io/js/number-formatierer)
+![GitHub](https://img.shields.io/github/license/kurisu994/number-formatter)
 ## Install
 
 ```sh
-npm install --save @kurisu/number-formatter 
+npm install --save number-formatierer 
 or 
-yarn add @kurisu/number-formatter
+yarn add number-formatierer
 ```
 
 
 ## Usage
 
 ```js
-var numberFormat = require('@kurisu/number-formatter')
-//import numberFormat from '@kurisu/number-formatter' ES6
+var numberFormat = require('number-formatierer')
+//import numberFormat from 'number-formatierer' ES6
 
 numberFormat("-12.0000")   // "-12"
 numberFormat(120000)  // "120,000"
@@ -48,8 +49,8 @@ The `numberFormat` function accepts these same parameters as the second and thir
 The `bindWith` function accepts the options and returns a function bound with them.
 
 ```javascript
-var numberFormat = require('@kurisu/number-formatter')
-//import numberFormat from '@kurisu/number-formatter' ES6
+var numberFormat = require('number-formatierer')
+//import numberFormat from 'number-formatierer' ES6
 
 const _bindWith = numberFormat.bindWith(2, 4, ",", ".")
 _bindWith(131277.092213);  // 13,1277.09
@@ -58,14 +59,19 @@ _bindWith(131277.092213);  // 13,1277.09
 
 same as `number.toFixed` and More accurate than  `number.toFixed`
 
-```javascript
-var numberFormat = require('@kurisu/number-formatter')
-//import numberFormat from '@kurisu/number-formatter' ES6
+**Parameters:**
 
-numberFormat.toFixd(0.015, 2); // 0.02
-numberFormat.toFixd(0.025, 2);  // 0.03
-numberFormat.toFixd(0.035, 2);  // 0.04
-numberFormat.toFixd(0.045, 2);  // 0.05
+* num（*required*） : {(Number)} Number  .
+* precision: {Number} precision  for the decimal . default 3 .
+
+```javascript
+var numberFormat = require('number-formatierer')
+//import numberFormat from 'number-formatierer' ES6
+
+numberFormat.toFixed(0.015, 2); // 0.02
+numberFormat.toFixed(0.025, 2);  // 0.03
+numberFormat.toFixed(0.035, 2);  // 0.04
+numberFormat.toFixed(0.045, 2);  // 0.05
 
 (0.015).toFixed(2); //0.01
 (0.025).toFixed(2); //0.03
