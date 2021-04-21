@@ -1,0 +1,30 @@
+{
+  "name": "@kurisu/number-formatter",
+  "version": "1.0.0",
+  "description": "Format a number with commas",
+  "main": "lib/index.js",
+  "scripts": {
+    "publish": "npm publish --registry https://registry.npmjs.org/",
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurisu994/number-formatter.git"
+  },
+  "keywords": [
+    "number",
+    "format",
+    "comma"
+  ],
+  "author": {
+    "name": "kurisu",
+    "email": "makise_kurisuu@outlook.jp",
+    "url": "https://github.com/kurisu994"
+  },
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/kurisu994/number-formatter/issues"
+  },
+  "homepage": "https://github.com/kurisu994/number-formatter#readme",
+  "devDependencies": {}
+}
