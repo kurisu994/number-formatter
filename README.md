@@ -1,6 +1,5 @@
 # number-formatierer
 ![GitHub repo size](https://img.shields.io/github/repo-size/kurisu994/number-formatter)
-#[![Build Status](https://travis-ci.org/kurisu994/number-formatter.svg?branch=main)](https://travis-ci.org/kurisu994/number-formatter)
 ![npm (tag)](https://img.shields.io/npm/v/number-formatierer/latest)
 ![GitHub](https://img.shields.io/github/license/kurisu994/number-formatter)
 ## Install
